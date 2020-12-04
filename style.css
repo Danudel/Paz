@@ -29,13 +29,34 @@ body {
     background: linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
 }
 
-#menu {
-    height: 33px;
-    position: relative;
-    top: 72px;
-    margin: 0 143px 0 0;
-
+#top-bar{
+    display: flex;
+    flex-direction: row;
+    padding-right: 1150px;
+    padding-top: 20px;
+    
 }
+
+#search-btn{
+    color: #7D7D7D;
+    background-color: #FFFFFF;
+}
+
+#eng{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu {
+    position: fixed;
+    top: 55px;
+    right: 600px;
+
+ }
 
 li{
     list-style: none;
@@ -170,6 +191,7 @@ a :hover {
 
 #logo {
     padding-right: 500px;
+    padding-bottom: 20px;
 }
 
 
