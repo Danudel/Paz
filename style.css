@@ -47,16 +47,16 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
+  }
 
-}
+
 .main-menu-item{
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
 }
 
-#menu >li>a {
+#menu >div>li>a {
     color: #fff;
     font-size: 15px;
     font-weight: bold;
@@ -74,8 +74,42 @@ ul{
     color: #005CA0;
 }
 
-.main-menu-item>a: hover {
+/* doesnt work
+a :hover {
+    color: #005CA0;
     text-decoration: underline;
-    olor: #005CA0;
+}*/
+
+
+/* dropdown*/
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #7D7D7D;
+  background: -webkit-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+  background: -moz-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+  background: linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+  min-width: 160px;
+
 }
 
+.dropdown-content a {
+  float: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.about:hover .dropdown-content {
+  display: block;
+}
