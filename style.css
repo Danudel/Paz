@@ -51,7 +51,31 @@ ul{
 
 }
 .main-menu-item{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
+
+#menu >li>a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}
+
+.separate{
+    color: lightgray;
+}
+
+
+#home{
+    color: #005CA0;
+}
+
+.main-menu-item>a: hover {
+    text-decoration: underline;
+    olor: #005CA0;
+}
+
