@@ -16,18 +16,6 @@ body {
     background: linear-gradient(to top, #FFFFFF 0%, #7D7D7D 10%);
 }
 
-.footer{
-    left: 0;
-    bottom: 0;
-    height: 38px;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    background: #7D7D7D;
-    background: -webkit-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
-    background: -moz-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
-    background: linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
-}
 
 #top-bar{
     display: flex;
@@ -196,4 +184,29 @@ a :hover {
 }
 
 
-  
+/* FOOTER */
+.footer{
+    left: 0;
+    bottom: 0;
+    height: 38px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: #7D7D7D;
+    background: -webkit-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+    background: -moz-linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+    background: linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
+}
+
+.footer nav ul li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+#fb{
+    color: #005CA0;
+    background-color: white;
+    border-color: white;
+}
