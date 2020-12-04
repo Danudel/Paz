@@ -3,10 +3,10 @@
 
 body {
     direction: rtl;
+    text-align: right;
     font-family: Arial;
      margin: 0;
 }
-
 
 .header {
     height: 105px;
@@ -15,10 +15,6 @@ body {
     background: -moz-linear-gradient(to top, #FFFFFF 0%, #7D7D7D 10%);
     background: linear-gradient(to top, #FFFFFF 0%, #7D7D7D 10%);
 }
-
-
-
-
 
 .footer{
     left: 0;
@@ -33,3 +29,29 @@ body {
     background: linear-gradient(to top, #7D7D7D 90%, #FFFFFF 100%);
 }
 
+#menu {
+    height: 33px;
+    position: relative;
+    top: 72px;
+    margin: 0 143px 0 0;
+
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+.main-menu-item{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
