@@ -190,8 +190,9 @@ a :hover {
 }
 
 #logo {
-    padding-right: 500px;
-    padding-bottom: 20px;
+    position: fixed;
+    right: 500px;
+    top: 30px;
 }
 
 
