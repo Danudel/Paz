@@ -74,17 +74,17 @@ ul{
     color: #005CA0;
 }
 
-/* doesnt work
+
 a :hover {
     color: #005CA0;
     text-decoration: underline;
-}*/
+}
 
 
 /* dropdown*/
 
 
-.dropdown-content {
+.content {
   display: none;
   position: absolute;
   background: #7D7D7D;
@@ -95,7 +95,7 @@ a :hover {
 
 }
 
-.dropdown-content a {
+.content a {
   float: none;
   color: #fff;
   font-size: 15px;
@@ -106,10 +106,66 @@ a :hover {
   text-align: right;
 }
 
-.dropdown-content a:hover {
+
+
+
+.about-content a:hover {
   background-color: #B0B0B0	;
 }
 
-.about:hover .dropdown-content {
+.about:hover .about-content {
   display: block;
 }
+
+.units-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.units:hover .units-content {
+  display: block;
+}
+
+
+.liability-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.liability:hover .liability-content {
+  display: block;
+}
+
+.investor-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.investor:hover .investor-content {
+  display: block;
+}
+
+.stations-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.stations:hover .stations-content {
+  display: block;
+}
+
+
+.career-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.career:hover .career-content {
+  display: block;
+}
+
+
+.news-content a:hover {
+  background-color: #B0B0B0	;
+}
+
+.news:hover .news-content {
+  display: block;
+}
+
+
