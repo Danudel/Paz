@@ -225,6 +225,7 @@ a:hover {
     position: relative;
     display: inline-block;
     margin: 5px;
+    margin-top: 25px;
 }
 
 
@@ -239,15 +240,6 @@ a:hover {
     bottom: 6px;
     right: 10px;
     border-bottom-right-radius: 20px;
-}
-
-
-#top-mid{
-    height: 355px;
-    width: 293px;
-    position: relative;
-    display: inline-block;
-
 }
 
 
@@ -276,4 +268,60 @@ a:hover {
     text-decoration: underline;
     float: left;
     color: #fff;
+}
+
+
+#row-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+   
+}
+
+
+.bottom{
+    position: relative;
+
+
+    float: right;
+    width: 244px;
+    padding: 0 24px;
+    height: 216px;
+    margin: 5px;
+      background: url(small_cube_bg.png);
+
+}
+
+.bottom-h{
+  position: relative;
+    height: 24px;
+    right: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #575757;
+}
+
+
+.bottom-a{
+    font-size: 13px;
+    text-decoration: underline;
+    float: left;
+    color: #72716d;
+}
+
+#map{
+  display: flex;
+  flex-direction: row;
+}
+
+#districts{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#map>img{
+  margin-left: 20px;
 }
