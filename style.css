@@ -219,7 +219,7 @@ a:hover {
     justify-content: center;
 }
 
-#top-right{
+.top{
     height: 355px;
     width: 293px;
     position: relative;
@@ -228,7 +228,7 @@ a:hover {
 }
 
 
-#top-right-content{
+.top-content{
   position: absolute;
     color: #fff;
     background-color: gray;
@@ -241,25 +241,35 @@ a:hover {
     border-bottom-right-radius: 20px;
 }
 
-#top-right>img{
+
+#top-mid{
+    height: 355px;
+    width: 293px;
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.top-pic{
     border-bottom-right-radius: 20px;
 }
 
-#top-right-content>h2{
+.top-head{
   align-self: start;
     margin-top: 0px;
     font-size: 14px;
     font-weight: bold;
 
 }
-#top-right-content>p{
+.top-p{
 
     font-size: 13px;
     font-weight: normal;
     margin-top: 0px;
 }
 
-#top-right-content>a{
+.top-a{
 
     margin-top: 0px;
     font-size: 13px;
