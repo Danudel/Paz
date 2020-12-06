@@ -7,6 +7,7 @@ body {
     font-family: Arial;
      margin: 0;
 }
+
 #upper-nav>a{
     text-decoration: none;
     color: #5c5c5c;
@@ -14,7 +15,7 @@ body {
 }
 #contact-page{
     /*float: right;*/
-
+    box-sizing: border-box;
     font-size: 12px;
     color: #5c5c5c;
    /*  display: flex;
@@ -23,12 +24,13 @@ body {
 
 
 #form{
-    margin-left: 24px;
-      width: 440px;
-    height: 385px;
-    width: 357px;
-    background: url(contact_form_bg.png);
 
+    width: 347px;
+    min-height: 332px;
+    padding: 12px 18px;
+    
+    background: url(contact_form_bg.png);
+    margin: 0 auto;
 }
 
 .contact-h1{

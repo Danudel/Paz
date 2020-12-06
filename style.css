@@ -251,7 +251,7 @@ a:hover {
     background-color: gray;
     opacity: 0.9;
     width: 228px;
-    height: 77px;
+    height: 105px;
     padding: 10px;
     bottom: 6px;
     right: 10px;
@@ -278,7 +278,7 @@ a:hover {
 }
 
 .top-a{
-
+position: absolute;
     margin-top: 0px;
     font-size: 13px;
     text-decoration: underline;
@@ -326,10 +326,11 @@ a:hover {
     color: #72716d;
 }
 
+
 #map{
   display: flex;
   flex-direction: row;
-
+  padding-bottom: 70px;
 
 }
 
