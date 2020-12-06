@@ -263,11 +263,29 @@ label{
     padding: 3px;
 }
 
+textarea{
+    width: 249px;
+    height: 109px;
+    padding: 3px;
+}
+
+
 #form>div>label  {
     color: #6d6d6d;
     display: inline-block;
     width: 75px;
     text-align: right;
+    padding-bottom: 10px;
+}
+
+#form>button{
+    height: 21px;
+    border-top-right-radius: 10px;
+    float: left;
+    border: thin white;
+    color: white;
+    background: rgb(255,255,255);
+background: linear-gradient(270deg, rgba(255,255,255,0) -43%, rgba(30,101,205,1) 20%);
 }
 
 .contact-h1{
