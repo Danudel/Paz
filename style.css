@@ -1,6 +1,5 @@
 
 
-
 body {
     direction: rtl;
     text-align: right;
@@ -213,6 +212,8 @@ a:hover {
 
 
 /*main*/
+
+
 #row-top{
     display: flex;
     flex-direction: row;
@@ -220,12 +221,14 @@ a:hover {
 }
 
 .top{
+      z-index: -1;
     height: 355px;
     width: 293px;
     position: relative;
     display: inline-block;
     margin: 5px;
     margin-top: 25px;
+
 }
 
 
@@ -282,8 +285,7 @@ a:hover {
 
 .bottom{
     position: relative;
-
-
+    
     float: right;
     width: 244px;
     padding: 0 24px;
@@ -314,14 +316,18 @@ a:hover {
 #map{
   display: flex;
   flex-direction: row;
+  padding-left: 0%;
+}
+
+#map-image{
+  float: left;
+
 }
 
 #districts{
   display: flex;
   flex-direction: column;
-
+  float: right;
+  
 }
 
-#map>img{
-  margin-left: 20px;
-}
