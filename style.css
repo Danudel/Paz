@@ -21,7 +21,6 @@ body {
     flex-direction: row;
     padding-right: 1150px;
     padding-top: 20px;
-    
 }
 
 #search-btn{
@@ -42,6 +41,7 @@ body {
     position: fixed;
     top: 55px;
     right: 600px;
+    margin: 0 auto;
 
  }
 
@@ -72,6 +72,15 @@ ul{
 
     
 }
+#menu >div>li>a:hover {
+    color: #005CA0;
+    text-decoration: underline;
+
+  }
+  #menu>div>div>a:hover{
+        color: #005CA0;
+    text-decoration: underline;
+  }
 
 .separate{
     color: lightgray;
