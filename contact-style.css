@@ -239,12 +239,14 @@ a:hover {
 
 }
 #contact-page{
-    /*float: right;*/
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
     font-size: 12px;
     color: #5c5c5c;
-   /*  display: flex;
-     flex-direction: column; */
+    width: 900px;
+    margin: 0 auto;
+
 }
 
 
@@ -252,10 +254,9 @@ a:hover {
 
     width: 347px;
     min-height: 332px;
-    padding: 12px 18px;
-    
+    padding: 10px 18px;
     background: url(contact_form_bg.png);
-    margin: 0 auto;
+   
 }
 
 label{
@@ -285,10 +286,27 @@ textarea{
     border: thin white;
     color: white;
     background: rgb(255,255,255);
-background: linear-gradient(270deg, rgba(255,255,255,0) -43%, rgba(30,101,205,1) 20%);
+    background: linear-gradient(270deg, rgba(255,255,255,0) -43%, rgba(30,101,205,1) 20%);
+}
+
+
+
+#side-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.side{
+    width: 248px;
+    height: 142px;
+    padding: 18px 22px 15px;
+    background: url(cube_bg.png);
 }
 
 .contact-h1{
+    margin-top: 0px;
     color: #005ca0;
     font-weight: bold;
     font-size: 15px;
@@ -309,22 +327,4 @@ background: linear-gradient(270deg, rgba(255,255,255,0) -43%, rgba(30,101,205,1)
     font-size: 12px;
 }
 
-/*
-#form>div>label{
-    float: right;
-}
 
-#form>div>input{
-    float: left;
-}*/
-
-#side-boxes{
-   /* position: relative;*/
-    /*display: flex;
-    flex-direction: row;*/
-}
-
-.side{
-    /*position: absolute;*/
-    background: url(cube_bg.png);
-}
