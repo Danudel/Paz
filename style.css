@@ -41,7 +41,6 @@ body {
     position: fixed;
     top: 55px;
     right: 600px;
-    margin: 0 auto;
 
  }
 
@@ -55,6 +54,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
   }
 
 
@@ -219,6 +219,10 @@ a:hover {
     border-color: white;
 }
 
+.footer>nav>ul>li>a:hover{
+    color: #005CA0;
+    text-decoration: underline;
+}
 
 /*main*/
 
@@ -325,18 +329,22 @@ a:hover {
 #map{
   display: flex;
   flex-direction: row;
-  padding-left: 0%;
+
+
 }
 
 #map-image{
   float: left;
+  border: 0px;
+  padding-right: 70px;
 
 }
 
 #districts{
+
   display: flex;
   flex-direction: column;
   float: right;
-  
+
 }
 
